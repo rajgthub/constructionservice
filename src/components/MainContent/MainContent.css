@@ -1,0 +1,13 @@
+.me {
+  background-image: url('../../img/bannerimg.png');
+  height: 40em;
+  width: 40em;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main > img:hover{
+  opacity: 0.9;
+}
