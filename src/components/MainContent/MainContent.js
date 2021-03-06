@@ -1,6 +1,5 @@
 import React from 'react';
-import { Grid, Button, makeStyles, Typography } from '@material-ui/core';
-import studentsPic from '../../img/landing.jpeg';
+import { Grid, makeStyles, Typography } from '@material-ui/core';
 import planning from '../../img/planning.jpeg';
 import design from '../../img/design.jpeg';
 import service from '../../img/service.jpeg';

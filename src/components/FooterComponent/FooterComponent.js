@@ -1,20 +1,16 @@
 import React from 'react';
 import {
-  Avatar,
   Grid,
   ListItem,
   List,
   ListItemAvatar,
-  useTheme,
   makeStyles,
   Hidden,
 } from '@material-ui/core';
 
 import {
-  FcAutomotive,
   FcPhone,
-  FcOnlineSupport,
-  FcVoicemail,
+  FcOnlineSupport
 } from 'react-icons/fc';
 import './Footer.css';
 import { GiBookAura } from 'react-icons/gi';
@@ -67,15 +63,6 @@ const FooterComponent = () => {
                     </ListItemAvatar>
                     <ListItem className={classes.text}>+44******</ListItem>
                   </ListItem>
-
-                  {/* <ListItem>
-                    <ListItemAvatar>
-                      <FcVoicemail className={classes.footer_icons} />
-                    </ListItemAvatar>
-                    <ListItem className={classes.text}>
-                      We answer within 2 hours during working days
-                    </ListItem>
-                  </ListItem> */}
                 </List>
               </div>
             </div>

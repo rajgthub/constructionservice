@@ -6,7 +6,6 @@ import {
   Toolbar,
   Tab,
   Typography,
-  Button,
   Menu,
   MenuItem,
   useMediaQuery,
@@ -65,9 +64,6 @@ const Navbar = () => {
     setValue(newValue);
   };
 
-  const handleOpenMenu = e => {
-    setAnchorEl(e.currentTarget);
-  };
   const handleCloseMenu = () => {
     setAnchorEl(null);
   };

@@ -1,16 +1,9 @@
 import { Card, CardContent, Grid, makeStyles } from '@material-ui/core';
 import React from 'react';
-import {
-  FaMoneyBillWave,
-  FaPhoenixFramework,
-  FaUserGraduate,
-} from 'react-icons/fa';
-import { GiPayMoney, GiSpellBook } from 'react-icons/gi';
-import { Icon, InlineIcon } from '@iconify/react';
+import { Icon} from '@iconify/react';
 import carpentrySaw from '@iconify-icons/noto/carpentry-saw';
 import plumberIcon from '@iconify-icons/map/plumber';
 import baselineElectricalServices from '@iconify-icons/ic/baseline-electrical-services';
-// import { Icon, InlineIcon } from '@iconify/react';
 import networkSettingsLine from '@iconify-icons/clarity/network-settings-line';
 
 const useStyles = makeStyles(theme => ({
