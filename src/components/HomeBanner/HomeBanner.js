@@ -9,10 +9,6 @@ const useStyles = makeStyles(theme => ({
     background: `url(
       ${landing}
     )`,
-    backgroundPosition: 'contained',
-    backgroundRepeat: 'no-repeat',
-    backgroundAttachment: 'fixed',
-    backgroundSize: 'cover',
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center',
