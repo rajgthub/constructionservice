@@ -5,18 +5,18 @@ import IconsGrid from '../IconsGrid/IconsGrid';
 import landing from '../../img/landingsmall.jpeg';
 const useStyles = makeStyles(theme => ({
   conatainer: {
-    height: '50rem',
+    // height: '50rem',
     background: `url(
       ${landing}
     ) red`,
-    backgroundRepeat: 'no-repeat',
-    backgroundAttachment: 'fixed',
-    backgroundSize: 'cover',
+    // backgroundRepeat: 'no-repeat',
+    // backgroundAttachment: 'fixed',
+    // backgroundSize: 'cover',
     // backgroundPosition: '50% 50%',
-    display: 'flex',
-    alignItems: 'center',
-    justifyContent: 'center',
-    flexDirection: 'column',
+    // display: 'flex',
+    // alignItems: 'center',
+    // justifyContent: 'center',
+    // flexDirection: 'column',
   },
   title: {
     fontSize: '2.5rem',
