@@ -3,10 +3,3 @@
   padding: 0;
   box-sizing: border-box;
 }
-#home{
-  background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  overflow: hidden;
-}

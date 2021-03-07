@@ -2,7 +2,7 @@ import React from 'react';
 import { Hidden, makeStyles } from '@material-ui/core';
 import MainContent from '../MainContent/MainContent';
 import IconsGrid from '../IconsGrid/IconsGrid';
-import landing from '../../img/planning.jpeg';
+import landing from '../../img/landingsmall.jpeg';
 const useStyles = makeStyles(theme => ({
   conatainer: {
     height: '100vh',
@@ -12,11 +12,11 @@ const useStyles = makeStyles(theme => ({
     backgroundRepeat: 'no-repeat',
     backgroundAttachment: 'fixed',
     backgroundSize: 'cover',
-    backgroundPosition: '50% 50%',
-    display: 'flex',
-    alignItems: 'center',
-    justifyContent: 'center',
-    flexDirection: 'column',
+    // backgroundPosition: '50% 50%',
+    // display: 'flex',
+    // alignItems: 'center',
+    // justifyContent: 'center',
+    // flexDirection: 'column',
   },
   title: {
     fontSize: '2.5rem',
@@ -38,7 +38,7 @@ const HomeBanner = () => {
   const classes = useStyles();
   return (
     <>
-      <div className={classes.conatainer} maxWidth={false} id="home">
+      <div className={classes.conatainer} id="home">
         <Hidden mdDown>
           <h1 className={classes.title}>Welcome to 3D Civil Engineering Service</h1>
           <p className={classes.text}>Your Greatest Choice</p>
