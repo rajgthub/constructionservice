@@ -12,10 +12,10 @@ const useStyles = makeStyles(theme => ({
     backgroundRepeat: 'no-repeat',
     backgroundAttachment: 'fixed',
     backgroundSize: 'cover',
+    backgroundPosition: 'top left',
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center',
-    color: 'white',
     flexDirection: 'column',
   },
   title: {
