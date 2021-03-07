@@ -10,13 +10,13 @@ const useStyles = makeStyles(theme => ({
       ${landing}
     )`,
     // backgroundRepeat: 'no-repeat',
-    // backgroundAttachment: 'fixed',
+    backgroundAttachment: 'fixed',
     // backgroundSize: 'cover',
     // backgroundPosition: '50% 50%',
-    // display: 'flex',
-    // alignItems: 'center',
-    // justifyContent: 'center',
-    // flexDirection: 'column',
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+    flexDirection: 'column',
   },
   title: {
     fontSize: '2.5rem',
