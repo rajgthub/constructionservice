@@ -12,7 +12,7 @@ const useStyles = makeStyles(theme => ({
     backgroundRepeat: 'no-repeat',
     backgroundAttachment: 'fixed',
     backgroundSize: 'cover',
-    backgroundPosition: 'top left',
+    backgroundPosition: '50% 50%',
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center',
