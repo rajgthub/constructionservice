@@ -11,7 +11,7 @@ const useStyles = makeStyles(theme => ({
     )`,
     backgroundRepeat: 'no-repeat',
     backgroundAttachment: 'fixed',
-    backgroundSize: 'auto',
+    backgroundSize: 'cover',
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center',
