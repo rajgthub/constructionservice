@@ -5,14 +5,14 @@ import IconsGrid from '../IconsGrid/IconsGrid';
 import landing from '../../img/landingsmall.jpeg';
 const useStyles = makeStyles(theme => ({
   conatainer: {
-    height: '100vh',
+    height: '140rem',
     background: `url(
       ${landing}
-    )`,
+    ) red`,
     backgroundRepeat: 'no-repeat',
     backgroundAttachment: 'fixed',
     // backgroundSize: 'cover',
-    backgroundPosition: '50% 50%',
+    // backgroundPosition: '50% 50%',
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center',
