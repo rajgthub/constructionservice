@@ -2,7 +2,7 @@ import React from 'react';
 import { Hidden, makeStyles } from '@material-ui/core';
 import MainContent from '../MainContent/MainContent';
 import IconsGrid from '../IconsGrid/IconsGrid';
-import landing from '../../img/landing.jpeg';
+import landing from '../../img/planning.jpeg';
 const useStyles = makeStyles(theme => ({
   conatainer: {
     height: '100vh',
