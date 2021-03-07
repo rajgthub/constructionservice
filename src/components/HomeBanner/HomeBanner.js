@@ -43,10 +43,6 @@ const HomeBanner = () => {
         <Hidden mdDown>
           <h1 className={classes.title}>Welcome to 3D Civil Engineering Service</h1>
           <p className={classes.text}>Your Greatest Choice</p>
-
-          {/* <Button variant='contained' color='secondary'>
-            Discover more
-          </Button> */}
         </Hidden>
       </div>
       <IconsGrid />
