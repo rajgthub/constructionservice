@@ -8,7 +8,7 @@ const useStyles = makeStyles(theme => ({
     // height: '50rem',
     background: `url(
       ${landing}
-    ) red`,
+    )`,
     // backgroundRepeat: 'no-repeat',
     // backgroundAttachment: 'fixed',
     // backgroundSize: 'cover',
