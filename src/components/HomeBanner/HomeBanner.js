@@ -5,14 +5,10 @@ import IconsGrid from '../IconsGrid/IconsGrid';
 import landing from '../../img/landingsmall.jpeg';
 const useStyles = makeStyles(theme => ({
   conatainer: {
-    // height: '50rem',
     background: `url(
       ${landing}
     )`,
-    // backgroundRepeat: 'no-repeat',
     backgroundAttachment: 'fixed',
-    // backgroundSize: 'cover',
-    // backgroundPosition: '50% 50%',
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center',
@@ -39,11 +35,13 @@ const HomeBanner = () => {
   return (
     <>
       <div className={classes.conatainer} id="home">
-        <Hidden mdDown>
-          <h1 className={classes.title}>Welcome to 3D Civil Engineering Service</h1>
-          <p className={classes.text}>Your Greatest Choice</p>
-        </Hidden>
+        <h1 className={classes.title}>Welcome to 3D Civil Engineering Service</h1>
       </div>
+      <Hidden mdDown>
+        <div className={classes.conatainer} id="home-small">
+          <h1 className={classes.title}>Welcome to 3D Civil Engineering Service</h1>
+        </div>
+      </Hidden>
       <IconsGrid />
       <MainContent />
     </>
