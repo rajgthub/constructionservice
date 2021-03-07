@@ -9,6 +9,9 @@ const useStyles = makeStyles(theme => ({
     background: `url(
       ${landing}
     )`,
+    backgroundRepeat: 'no-repeat',
+    backgroundAttachment: 'fixed',
+    backgroundSize: 'cover',
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center',
@@ -35,7 +38,7 @@ const HomeBanner = () => {
   const classes = useStyles();
   return (
     <>
-      <div className={classes.conatainer} maxWidth={false} id="home">
+      <div className={classes.conatainer} id="bgimage" maxWidth={false} id="home">
         <Hidden mdDown>
           <h1 className={classes.title}>Welcome to 3D Civil Engineering Service</h1>
           <p className={classes.text}>Your Greatest Choice</p>
