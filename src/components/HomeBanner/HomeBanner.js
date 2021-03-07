@@ -35,13 +35,11 @@ const HomeBanner = () => {
   return (
     <>
       <div className={classes.conatainer} id="home">
-        <h1 className={classes.title}>Welcome to 3D Civil Engineering Service</h1>
-      </div>
       <Hidden mdDown>
-        <div className={classes.conatainer} id="home-small">
-          <h1 className={classes.title}>Welcome to 3D Civil Engineering Service</h1>
-        </div>
-      </Hidden>
+        <h1 className={classes.title}>Welcome to 3D Civil Engineering Service</h1>
+        <p className={classes.text}>Your Greatest Choice</p>
+        </Hidden>
+      </div>
       <IconsGrid />
       <MainContent />
     </>

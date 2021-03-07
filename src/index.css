@@ -3,10 +3,14 @@
   padding: 0;
   box-sizing: border-box;
 }
-#home, #home-small{
+#home{
   height: 100vh;
   background-repeat: no-repeat;
-}
-#home{
   background-size: cover;
+  
+}
+@media screen and (max-width: 700px) {
+  #home{
+    background-size: auto;
+  }
 }
