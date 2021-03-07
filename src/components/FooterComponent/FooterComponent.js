@@ -32,7 +32,7 @@ const FooterComponent = () => {
   const classes = useStyles();
   return (
     <div className='footer'>
-      <Hidden smDown>
+      {/* <Hidden smDown> */}
         <Grid
           container
           direction='row'
@@ -80,7 +80,7 @@ const FooterComponent = () => {
            
           </Grid>
         </Grid>
-      </Hidden>
+      {/* </Hidden> */}
     </div>
   );
 };
