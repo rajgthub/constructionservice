@@ -36,7 +36,7 @@ const HomeBanner = () => {
     <>
       <div className={classes.conatainer} id="home">
       <Hidden mdDown>
-        <h1 className={classes.title}>Welcome to 3D Civil Engineering Service</h1>
+        <h1 className={classes.title}>Welcome to KSS Construction Service</h1>
         <p className={classes.text}>Your Greatest Choice</p>
         </Hidden>
       </div>
